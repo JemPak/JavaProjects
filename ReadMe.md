@@ -1,4 +1,5 @@
-Java Projects - Ejercicios de apoyo al ciclo 2 de programacion MinTic 2022
+      Java Projects 
+- Ejercicios de apoyo al ciclo 2 de programacion MinTic 2022.
 
 Este repositorio contiene algunos de los ejercicios que se trabajaron en apoyo conjunto
 al programa MisionTic 2022, donde se destaca el estudio del paradigma de la programación
