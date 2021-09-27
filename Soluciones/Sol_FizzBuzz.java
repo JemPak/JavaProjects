@@ -1,3 +1,8 @@
+/**
+ *
+ * @author JUAN JOSE MONSALVE
+ */
+
 import java.util.Scanner;
 public class ejercicio7{   
     

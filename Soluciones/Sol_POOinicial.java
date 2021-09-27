@@ -1,4 +1,9 @@
-// clase 1
+/**
+ *
+ * @author JUAN JOSE MONSALVE
+ */
+
+// clase 1 para ejecución
 public class Principio {
 
     public static void main(String[] args) {
