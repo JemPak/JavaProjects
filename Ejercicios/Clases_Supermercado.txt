@@ -1,0 +1,35 @@
+By: JemPak
+August 9, 2021
+
+En un supermercado se cuenta con una maquina tipo escaner, que lee el codigo de barras
+de los productos.Suponga que lo contratan a usted para que escriba un programa en Java, con el cual le ayudara 
+a las personas de la caja registradora a saber cuantos productos compró una persona y cuanto essu precio final a pagar.
+
+La aplicacion debe almacenar los Productos (clase), cada producto de este supermercado cuenta con un nombre,
+una cantidad aleatoria entre 1-5 que el cliente compró y un precio aleatorio entre 1-10 que vale el producto.
+
+La clase (CajaRegistradora) cuenta con los metodos:
+
+	AtenderCliente: se le pasa un carritoDeCompra (clase) con los productos que la persona lleva, y realiza 2 cosas:
+
+		- Actualiza el TotalApagar, CantidadProductos del carrito de compra, e imprime en pantalla lo sgt:
+	#############################################
+	Productos	Cantidad	Precio	Total
+
+	Producto1	3		8.5	25.5
+	Producto2	1		10	10
+	Producto3	4		2.5	10
+	---------------------------------------------
+	Cantidad Total de Productos: 8
+	Total a pagar: 45.5
+	#############################################
+
+
+	LiquidarDia: me imprime en pantalla el total de productos vendidos en el dia, y la suma total de los precios.
+
+La clase carritoDeCompra además de los atributos ya mencionados, cuenta con otro atributo que contiene los productos del carrito, además de los sgt metodos.
+
+	AgregarProducto: agrega el nuevo producto pasapo por parametro
+	EliminarProducto: elimina del carrito el producto pasado por parametro
+
+Adaptado de: https://www.discoduroderoer.es/

@@ -1,0 +1,33 @@
+
+By: JemPak
+July 28, 2021
+
+Crear 2 clases dentro de un mismo paquete en Netbeans, una clase llamda Principal para ejecutar,
+y otra clase llamada Persona que debe tener las siguientes instrucciones.
+
+Nombre de la clase: Persona
+
+Atributos: 
+	sexo: String
+	Edad: Int
+	Nombre: String (nombre + apellido)
+	Nacionalidad: String
+	#Documento: String
+
+Metodos: 
+
+	Es_mayor_de_edad: retorna (true o false) si es mayor de 18 años.
+
+	Departamento_residencia: este metodo retorna un String correspondiente al departamento de residencia,
+	si el #documento tiene entre 3 y 5 caracteres es del valle del cauca, entre 5 y 8 de Antioquia, entre 8 y 10 Cundinamarca. 
+
+	Alias: retorna un String con el alias de la persona, Ej: si te llamas Camilo Rios Velez,el elias será la inicial de cada
+	nombre y apellido, en este caso retornaria CRV.
+
+El funcionamiento debera corresponder a la clase Principal donde se instancia (crear un objeto) la clase Persona y se ejecutan algunos
+de los metodos mencionados.
+
+Recomendacion: Utilizar un constructor para inicializar los atributos de la clase Persona.
+
+	
+	

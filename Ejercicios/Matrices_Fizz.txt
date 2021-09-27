@@ -1,0 +1,25 @@
+By: JemPak
+
+Dada un matriz de tamaño n x n ingresada por el usuario, examinar la diagonal principal y secundaria.
+En pantalla se debe imprimir Fizz si la suma de los elementos de la diagonal 
+forman un numero par, en caso contrario debe imprimir Buzz. 
+este analisis se debe realizar tambien para la diagonal secundaria. 
+ imprimir en pantalla: Resultado_diagonal_principal - Resultado_diagonal_secundaria
+
+Ej: Tamaño de la matriz: 3 ( este dato lo ingresa el usuarios al igual que la matriz a continuacion)
+
+     entrada: [[2, 3, 4]
+	      [1, 3, 1]
+	      [4, 5, 1]] 
+
+proceso: diagonal principal: 2+3+1 = 6, como es par tengo Fizz
+
+	diagonal secundaria: 4+3+4 = 11, como es impar tengo Buzz
+
+salida: Fizz - Buzz
+
+Atencion !!!: la entrada de la matriz pueden no ser numeros enteros.
+
+Opcional: Se debe crear una funcion multiproposito, que sirva para evaluar ambas diagonales.
+
+

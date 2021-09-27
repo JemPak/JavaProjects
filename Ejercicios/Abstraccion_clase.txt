@@ -1,0 +1,69 @@
+By: JemPak
+August 2, 2021
+
+Se tiene una clase Figura de tipo Abstracta en Java(NetBeans), con las siguientes
+caracteristicas:
+
+Atributos:
+	Lado1: Int
+	Lado2: Int
+	Caracter_delimitante: (Char o String)
+
+Funciones: Al ser un clase Abstracta se tendrá que utilizar polimorfismo para los siguientes metodos.
+
+	Metodo1: Obtener_Area - retorna el area total de la figura.
+
+	Metodo2: Obtener_perimetro - retorna el perimetro de la figura.
+
+	Metodo3: Dibujar_figura - imprime en pantalla la figura delimitada segun sus lados y el caracter delimitante.
+
+
+Explicacion: Suponga que con los parametros que otorga el usuario usted puede construir 4 tipos de figuras:
+
+	clase Cuadrado - solo aplica si los 2 parametros son iguales, en otro caso no se puede ejecutar. 
+
+	clase Rectangulo - solo aplica si los 2 parametros son diferentes, en otro caso no se puede ejecutar.
+
+	clase Rombo - solo aplica si los 2 parametros son iguales, en este caso suponga que es un Rombo perfecto
+			y que su area se obtiene como la de un cuadrado.
+
+Ejemplo de prueba: suponga que el usuario ingresa los siguientes valores.
+	Lado1: 4
+	Lado2: 4
+	Caracter: *
+
+Si quiero formar un Rombo:
+	Area: 16 
+	perimetro: 16
+
+Impresion al llamar una figura de tipo Rombo:
+
+	*
+      *   *
+    *       *
+  *           *
+    *       *  	
+      *   *
+	*
+
+si quiero formar un Cuadrado:
+	Area: 8
+	perimetro: 16
+
+Impresion al llamar una figura de tipo Cuadrado:
+
+* * * *
+*     *
+*     *
+* * * *
+
+
+Con estos mismos valores ingresados, puedo querer formar un rectangulo, en cuyo caso el sistema no 
+me lo debe permitir (generar una advertencia !).
+
+Opcional: Crear un metodo que le permita al usuario cambiar su caracter delimitante.
+
+	
+Ayuda: la clase Figura es Abstracta y definirá los metodos, las otras clases heredaran de Figura
+	para poder sobreescribir los metodos abstractos. La ejecucion se lleva a cabo en otra clase.		
+	
